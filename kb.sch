@@ -1,0 +1,984 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 7350 7500 0    50   ~ 0
+LiamBoard
+Text Notes 8150 7650 0    50   ~ 0
+2021-08-17
+Text Notes 10600 7650 0    50   ~ 0
+A
+$Comp
+L Switch:SW_Push SWA1
+U 1 1 611FB918
+P 3750 3200
+F 0 "SWA1" H 3750 3485 50  0000 C CNN
+F 1 "SW_Push" H 3750 3394 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 3750 3400 50  0001 C CNN
+F 3 "~" H 3750 3400 50  0001 C CNN
+	1    3750 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 612005A5
+P 3950 3350
+F 0 "D1" V 3996 3270 50  0000 R CNN
+F 1 "D" V 3905 3270 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" H 3950 3350 50  0001 C CNN
+F 3 "~" H 3950 3350 50  0001 C CNN
+	1    3950 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SWB1
+U 1 1 61290D7E
+P 4400 3200
+F 0 "SWB1" H 4400 3485 50  0000 C CNN
+F 1 "SW_Push" H 4400 3394 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 4400 3400 50  0001 C CNN
+F 3 "~" H 4400 3400 50  0001 C CNN
+	1    4400 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D6
+U 1 1 61290D84
+P 4600 3350
+F 0 "D6" V 4646 3270 50  0000 R CNN
+F 1 "D" V 4555 3270 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" H 4600 3350 50  0001 C CNN
+F 3 "~" H 4600 3350 50  0001 C CNN
+	1    4600 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SWC1
+U 1 1 61291559
+P 5050 3200
+F 0 "SWC1" H 5050 3485 50  0000 C CNN
+F 1 "SW_Push" H 5050 3394 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 5050 3400 50  0001 C CNN
+F 3 "~" H 5050 3400 50  0001 C CNN
+	1    5050 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D11
+U 1 1 6129155F
+P 5250 3350
+F 0 "D11" V 5296 3270 50  0000 R CNN
+F 1 "D" V 5205 3270 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" H 5250 3350 50  0001 C CNN
+F 3 "~" H 5250 3350 50  0001 C CNN
+	1    5250 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SWD1
+U 1 1 61292732
+P 5700 3200
+F 0 "SWD1" H 5700 3485 50  0000 C CNN
+F 1 "SW_Push" H 5700 3394 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 5700 3400 50  0001 C CNN
+F 3 "~" H 5700 3400 50  0001 C CNN
+	1    5700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D16
+U 1 1 61292738
+P 5900 3350
+F 0 "D16" V 5946 3270 50  0000 R CNN
+F 1 "D" V 5855 3270 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" H 5900 3350 50  0001 C CNN
+F 3 "~" H 5900 3350 50  0001 C CNN
+	1    5900 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SWE1
+U 1 1 6129337D
+P 6350 3200
+F 0 "SWE1" H 6350 3485 50  0000 C CNN
+F 1 "SW_Push" H 6350 3394 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 6350 3400 50  0001 C CNN
+F 3 "~" H 6350 3400 50  0001 C CNN
+	1    6350 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D21
+U 1 1 61293383
+P 6550 3350
+F 0 "D21" V 6596 3270 50  0000 R CNN
+F 1 "D" V 6505 3270 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" H 6550 3350 50  0001 C CNN
+F 3 "~" H 6550 3350 50  0001 C CNN
+	1    6550 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SWF1
+U 1 1 61293E90
+P 7000 3200
+F 0 "SWF1" H 7000 3485 50  0000 C CNN
+F 1 "SW_Push" H 7000 3394 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 7000 3400 50  0001 C CNN
+F 3 "~" H 7000 3400 50  0001 C CNN
+	1    7000 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D26
+U 1 1 61293E96
+P 7200 3350
+F 0 "D26" V 7246 3270 50  0000 R CNN
+F 1 "D" V 7155 3270 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" H 7200 3350 50  0001 C CNN
+F 3 "~" H 7200 3350 50  0001 C CNN
+	1    7200 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SWA2
+U 1 1 6129F88F
+P 3750 3900
+F 0 "SWA2" H 3750 4185 50  0000 C CNN
+F 1 "SW_Push" H 3750 4094 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 3750 4100 50  0001 C CNN
+F 3 "~" H 3750 4100 50  0001 C CNN
+	1    3750 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 6129F895
+P 3950 4050
+F 0 "D2" V 3996 3970 50  0000 R CNN
+F 1 "D" V 3905 3970 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" H 3950 4050 50  0001 C CNN
+F 3 "~" H 3950 4050 50  0001 C CNN
+	1    3950 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SWB2
+U 1 1 6129F89B
+P 4400 3900
+F 0 "SWB2" H 4400 4185 50  0000 C CNN
+F 1 "SW_Push" H 4400 4094 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 4400 4100 50  0001 C CNN
+F 3 "~" H 4400 4100 50  0001 C CNN
+	1    4400 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D7
+U 1 1 6129F8A1
+P 4600 4050
+F 0 "D7" V 4646 3970 50  0000 R CNN
+F 1 "D" V 4555 3970 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" H 4600 4050 50  0001 C CNN
+F 3 "~" H 4600 4050 50  0001 C CNN
+	1    4600 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SWC2
+U 1 1 6129F8A7
+P 5050 3900
+F 0 "SWC2" H 5050 4185 50  0000 C CNN
+F 1 "SW_Push" H 5050 4094 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 5050 4100 50  0001 C CNN
+F 3 "~" H 5050 4100 50  0001 C CNN
+	1    5050 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D12
+U 1 1 6129F8AD
+P 5250 4050
+F 0 "D12" V 5296 3970 50  0000 R CNN
+F 1 "D" V 5205 3970 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" H 5250 4050 50  0001 C CNN
+F 3 "~" H 5250 4050 50  0001 C CNN
+	1    5250 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SWD2
+U 1 1 6129F8B3
+P 5700 3900
+F 0 "SWD2" H 5700 4185 50  0000 C CNN
+F 1 "SW_Push" H 5700 4094 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 5700 4100 50  0001 C CNN
+F 3 "~" H 5700 4100 50  0001 C CNN
+	1    5700 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D17
+U 1 1 6129F8B9
+P 5900 4050
+F 0 "D17" V 5946 3970 50  0000 R CNN
+F 1 "D" V 5855 3970 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" H 5900 4050 50  0001 C CNN
+F 3 "~" H 5900 4050 50  0001 C CNN
+	1    5900 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SWE2
+U 1 1 6129F8BF
+P 6350 3900
+F 0 "SWE2" H 6350 4185 50  0000 C CNN
+F 1 "SW_Push" H 6350 4094 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 6350 4100 50  0001 C CNN
+F 3 "~" H 6350 4100 50  0001 C CNN
+	1    6350 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D22
+U 1 1 6129F8C5
+P 6550 4050
+F 0 "D22" V 6596 3970 50  0000 R CNN
+F 1 "D" V 6505 3970 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" H 6550 4050 50  0001 C CNN
+F 3 "~" H 6550 4050 50  0001 C CNN
+	1    6550 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SWF2
+U 1 1 6129F8CB
+P 7000 3900
+F 0 "SWF2" H 7000 4185 50  0000 C CNN
+F 1 "SW_Push" H 7000 4094 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 7000 4100 50  0001 C CNN
+F 3 "~" H 7000 4100 50  0001 C CNN
+	1    7000 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D27
+U 1 1 6129F8D1
+P 7200 4050
+F 0 "D27" V 7246 3970 50  0000 R CNN
+F 1 "D" V 7155 3970 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" H 7200 4050 50  0001 C CNN
+F 3 "~" H 7200 4050 50  0001 C CNN
+	1    7200 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SWA3
+U 1 1 612ACEB0
+P 3750 4600
+F 0 "SWA3" H 3750 4885 50  0000 C CNN
+F 1 "SW_Push" H 3750 4794 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 3750 4800 50  0001 C CNN
+F 3 "~" H 3750 4800 50  0001 C CNN
+	1    3750 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 612ACEB6
+P 3950 4750
+F 0 "D3" V 3996 4670 50  0000 R CNN
+F 1 "D" V 3905 4670 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" H 3950 4750 50  0001 C CNN
+F 3 "~" H 3950 4750 50  0001 C CNN
+	1    3950 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SWB3
+U 1 1 612ACEBC
+P 4400 4600
+F 0 "SWB3" H 4400 4885 50  0000 C CNN
+F 1 "SW_Push" H 4400 4794 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 4400 4800 50  0001 C CNN
+F 3 "~" H 4400 4800 50  0001 C CNN
+	1    4400 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D8
+U 1 1 612ACEC2
+P 4600 4750
+F 0 "D8" V 4646 4670 50  0000 R CNN
+F 1 "D" V 4555 4670 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" H 4600 4750 50  0001 C CNN
+F 3 "~" H 4600 4750 50  0001 C CNN
+	1    4600 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SWC3
+U 1 1 612ACEC8
+P 5050 4600
+F 0 "SWC3" H 5050 4885 50  0000 C CNN
+F 1 "SW_Push" H 5050 4794 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 5050 4800 50  0001 C CNN
+F 3 "~" H 5050 4800 50  0001 C CNN
+	1    5050 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D13
+U 1 1 612ACECE
+P 5250 4750
+F 0 "D13" V 5296 4670 50  0000 R CNN
+F 1 "D" V 5205 4670 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" H 5250 4750 50  0001 C CNN
+F 3 "~" H 5250 4750 50  0001 C CNN
+	1    5250 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SWD3
+U 1 1 612ACED4
+P 5700 4600
+F 0 "SWD3" H 5700 4885 50  0000 C CNN
+F 1 "SW_Push" H 5700 4794 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 5700 4800 50  0001 C CNN
+F 3 "~" H 5700 4800 50  0001 C CNN
+	1    5700 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D18
+U 1 1 612ACEDA
+P 5900 4750
+F 0 "D18" V 5946 4670 50  0000 R CNN
+F 1 "D" V 5855 4670 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" H 5900 4750 50  0001 C CNN
+F 3 "~" H 5900 4750 50  0001 C CNN
+	1    5900 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SWE3
+U 1 1 612ACEE0
+P 6350 4600
+F 0 "SWE3" H 6350 4885 50  0000 C CNN
+F 1 "SW_Push" H 6350 4794 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 6350 4800 50  0001 C CNN
+F 3 "~" H 6350 4800 50  0001 C CNN
+	1    6350 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D23
+U 1 1 612ACEE6
+P 6550 4750
+F 0 "D23" V 6596 4670 50  0000 R CNN
+F 1 "D" V 6505 4670 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" H 6550 4750 50  0001 C CNN
+F 3 "~" H 6550 4750 50  0001 C CNN
+	1    6550 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SWF3
+U 1 1 612ACEEC
+P 7000 4600
+F 0 "SWF3" H 7000 4885 50  0000 C CNN
+F 1 "SW_Push" H 7000 4794 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 7000 4800 50  0001 C CNN
+F 3 "~" H 7000 4800 50  0001 C CNN
+	1    7000 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D28
+U 1 1 612ACEF2
+P 7200 4750
+F 0 "D28" V 7246 4670 50  0000 R CNN
+F 1 "D" V 7155 4670 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" H 7200 4750 50  0001 C CNN
+F 3 "~" H 7200 4750 50  0001 C CNN
+	1    7200 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SWA4
+U 1 1 612ACEF8
+P 3750 5300
+F 0 "SWA4" H 3750 5585 50  0000 C CNN
+F 1 "SW_Push" H 3750 5494 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 3750 5500 50  0001 C CNN
+F 3 "~" H 3750 5500 50  0001 C CNN
+	1    3750 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 612ACEFE
+P 3950 5450
+F 0 "D4" V 3996 5370 50  0000 R CNN
+F 1 "D" V 3905 5370 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" H 3950 5450 50  0001 C CNN
+F 3 "~" H 3950 5450 50  0001 C CNN
+	1    3950 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SWB4
+U 1 1 612ACF04
+P 4400 5300
+F 0 "SWB4" H 4400 5585 50  0000 C CNN
+F 1 "SW_Push" H 4400 5494 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 4400 5500 50  0001 C CNN
+F 3 "~" H 4400 5500 50  0001 C CNN
+	1    4400 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D9
+U 1 1 612ACF0A
+P 4600 5450
+F 0 "D9" V 4646 5370 50  0000 R CNN
+F 1 "D" V 4555 5370 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" H 4600 5450 50  0001 C CNN
+F 3 "~" H 4600 5450 50  0001 C CNN
+	1    4600 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SWC4
+U 1 1 612ACF10
+P 5050 5300
+F 0 "SWC4" H 5050 5585 50  0000 C CNN
+F 1 "SW_Push" H 5050 5494 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 5050 5500 50  0001 C CNN
+F 3 "~" H 5050 5500 50  0001 C CNN
+	1    5050 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D14
+U 1 1 612ACF16
+P 5250 5450
+F 0 "D14" V 5296 5370 50  0000 R CNN
+F 1 "D" V 5205 5370 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" H 5250 5450 50  0001 C CNN
+F 3 "~" H 5250 5450 50  0001 C CNN
+	1    5250 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SWD4
+U 1 1 612ACF1C
+P 5700 5300
+F 0 "SWD4" H 5700 5585 50  0000 C CNN
+F 1 "SW_Push" H 5700 5494 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 5700 5500 50  0001 C CNN
+F 3 "~" H 5700 5500 50  0001 C CNN
+	1    5700 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D19
+U 1 1 612ACF22
+P 5900 5450
+F 0 "D19" V 5946 5370 50  0000 R CNN
+F 1 "D" V 5855 5370 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" H 5900 5450 50  0001 C CNN
+F 3 "~" H 5900 5450 50  0001 C CNN
+	1    5900 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SWE4
+U 1 1 612ACF28
+P 6350 5300
+F 0 "SWE4" H 6350 5585 50  0000 C CNN
+F 1 "SW_Push" H 6350 5494 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 6350 5500 50  0001 C CNN
+F 3 "~" H 6350 5500 50  0001 C CNN
+	1    6350 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D24
+U 1 1 612ACF2E
+P 6550 5450
+F 0 "D24" V 6596 5370 50  0000 R CNN
+F 1 "D" V 6505 5370 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" H 6550 5450 50  0001 C CNN
+F 3 "~" H 6550 5450 50  0001 C CNN
+	1    6550 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SWF4
+U 1 1 612ACF34
+P 7000 5300
+F 0 "SWF4" H 7000 5585 50  0000 C CNN
+F 1 "SW_Push" H 7000 5494 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 7000 5500 50  0001 C CNN
+F 3 "~" H 7000 5500 50  0001 C CNN
+	1    7000 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D29
+U 1 1 612ACF3A
+P 7200 5450
+F 0 "D29" V 7246 5370 50  0000 R CNN
+F 1 "D" V 7155 5370 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" H 7200 5450 50  0001 C CNN
+F 3 "~" H 7200 5450 50  0001 C CNN
+	1    7200 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SWA5
+U 1 1 612B7DF9
+P 3750 6000
+F 0 "SWA5" H 3750 6285 50  0000 C CNN
+F 1 "SW_Push" H 3750 6194 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 3750 6200 50  0001 C CNN
+F 3 "~" H 3750 6200 50  0001 C CNN
+	1    3750 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D5
+U 1 1 612B7DFF
+P 3950 6150
+F 0 "D5" V 3996 6070 50  0000 R CNN
+F 1 "D" V 3905 6070 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" H 3950 6150 50  0001 C CNN
+F 3 "~" H 3950 6150 50  0001 C CNN
+	1    3950 6150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SWB5
+U 1 1 612B7E05
+P 4400 6000
+F 0 "SWB5" H 4400 6285 50  0000 C CNN
+F 1 "SW_Push" H 4400 6194 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 4400 6200 50  0001 C CNN
+F 3 "~" H 4400 6200 50  0001 C CNN
+	1    4400 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D10
+U 1 1 612B7E0B
+P 4600 6150
+F 0 "D10" V 4646 6070 50  0000 R CNN
+F 1 "D" V 4555 6070 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" H 4600 6150 50  0001 C CNN
+F 3 "~" H 4600 6150 50  0001 C CNN
+	1    4600 6150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SWC5
+U 1 1 612B7E11
+P 5050 6000
+F 0 "SWC5" H 5050 6285 50  0000 C CNN
+F 1 "SW_Push" H 5050 6194 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 5050 6200 50  0001 C CNN
+F 3 "~" H 5050 6200 50  0001 C CNN
+	1    5050 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D15
+U 1 1 612B7E17
+P 5250 6150
+F 0 "D15" V 5296 6070 50  0000 R CNN
+F 1 "D" V 5205 6070 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" H 5250 6150 50  0001 C CNN
+F 3 "~" H 5250 6150 50  0001 C CNN
+	1    5250 6150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SWD5
+U 1 1 612B7E1D
+P 5700 6000
+F 0 "SWD5" H 5700 6285 50  0000 C CNN
+F 1 "SW_Push" H 5700 6194 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 5700 6200 50  0001 C CNN
+F 3 "~" H 5700 6200 50  0001 C CNN
+	1    5700 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D20
+U 1 1 612B7E23
+P 5900 6150
+F 0 "D20" V 5946 6070 50  0000 R CNN
+F 1 "D" V 5855 6070 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" H 5900 6150 50  0001 C CNN
+F 3 "~" H 5900 6150 50  0001 C CNN
+	1    5900 6150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SWE5
+U 1 1 612B7E29
+P 6350 6000
+F 0 "SWE5" H 6350 6285 50  0000 C CNN
+F 1 "SW_Push" H 6350 6194 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 6350 6200 50  0001 C CNN
+F 3 "~" H 6350 6200 50  0001 C CNN
+	1    6350 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D25
+U 1 1 612B7E2F
+P 6550 6150
+F 0 "D25" V 6596 6070 50  0000 R CNN
+F 1 "D" V 6505 6070 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" H 6550 6150 50  0001 C CNN
+F 3 "~" H 6550 6150 50  0001 C CNN
+	1    6550 6150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SWF5
+U 1 1 612B7E35
+P 7000 6000
+F 0 "SWF5" H 7000 6285 50  0000 C CNN
+F 1 "SW_Push" H 7000 6194 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 7000 6200 50  0001 C CNN
+F 3 "~" H 7000 6200 50  0001 C CNN
+	1    7000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D30
+U 1 1 612B7E3B
+P 7200 6150
+F 0 "D30" V 7246 6070 50  0000 R CNN
+F 1 "D" V 7155 6070 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" H 7200 6150 50  0001 C CNN
+F 3 "~" H 7200 6150 50  0001 C CNN
+	1    7200 6150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6800 3200 6800 3900
+Wire Wire Line
+	6800 3900 6800 4600
+Connection ~ 6800 3900
+Wire Wire Line
+	6800 4600 6800 5300
+Connection ~ 6800 4600
+Wire Wire Line
+	6800 5300 6800 6000
+Connection ~ 6800 5300
+Wire Wire Line
+	6150 3200 6150 3900
+Wire Wire Line
+	6150 3900 6150 4600
+Connection ~ 6150 3900
+Wire Wire Line
+	6150 4600 6150 5300
+Connection ~ 6150 4600
+Wire Wire Line
+	6150 5300 6150 6000
+Connection ~ 6150 5300
+Wire Wire Line
+	5500 3200 5500 3900
+Wire Wire Line
+	5500 3900 5500 4600
+Connection ~ 5500 3900
+Wire Wire Line
+	5500 4600 5500 5300
+Connection ~ 5500 4600
+Wire Wire Line
+	5500 5300 5500 6000
+Connection ~ 5500 5300
+Wire Wire Line
+	4850 3200 4850 3900
+Wire Wire Line
+	4850 3900 4850 4600
+Connection ~ 4850 3900
+Wire Wire Line
+	4850 4600 4850 5300
+Connection ~ 4850 4600
+Wire Wire Line
+	4850 5300 4850 6000
+Connection ~ 4850 5300
+Wire Wire Line
+	4200 3200 4200 3900
+Wire Wire Line
+	4200 3900 4200 4600
+Connection ~ 4200 3900
+Wire Wire Line
+	4200 4600 4200 5300
+Connection ~ 4200 4600
+Wire Wire Line
+	4200 5300 4200 6000
+Connection ~ 4200 5300
+Wire Wire Line
+	3550 3200 3550 3900
+Wire Wire Line
+	3550 3900 3550 4600
+Connection ~ 3550 3900
+Wire Wire Line
+	3550 4600 3550 5300
+Connection ~ 3550 4600
+Wire Wire Line
+	3550 5300 3550 6000
+Connection ~ 3550 5300
+Wire Wire Line
+	3950 3500 4600 3500
+Wire Wire Line
+	4600 3500 5250 3500
+Connection ~ 4600 3500
+Connection ~ 5250 3500
+Connection ~ 5900 3500
+Wire Wire Line
+	6550 3500 7200 3500
+Connection ~ 6550 3500
+Wire Wire Line
+	3950 4200 4600 4200
+Wire Wire Line
+	4600 4200 5250 4200
+Connection ~ 4600 4200
+Wire Wire Line
+	5250 4200 5900 4200
+Connection ~ 5250 4200
+Wire Wire Line
+	5900 4200 6550 4200
+Connection ~ 5900 4200
+Wire Wire Line
+	6550 4200 7200 4200
+Connection ~ 6550 4200
+Wire Wire Line
+	3950 4900 4600 4900
+Wire Wire Line
+	4600 4900 5250 4900
+Connection ~ 4600 4900
+Connection ~ 5250 4900
+Wire Wire Line
+	5900 4900 6550 4900
+Connection ~ 5900 4900
+Wire Wire Line
+	6550 4900 7200 4900
+Connection ~ 6550 4900
+Wire Wire Line
+	5250 5600 5900 5600
+Connection ~ 5900 5600
+Connection ~ 6550 5600
+Wire Wire Line
+	3950 6300 4600 6300
+Wire Wire Line
+	4600 6300 5250 6300
+Connection ~ 4600 6300
+Wire Wire Line
+	5250 6300 5900 6300
+Connection ~ 5250 6300
+Wire Wire Line
+	5900 6300 6550 6300
+Connection ~ 5900 6300
+Connection ~ 6550 6300
+Wire Wire Line
+	3950 5600 4600 5600
+Wire Wire Line
+	4600 5600 5250 5600
+Connection ~ 4600 5600
+Connection ~ 5250 5600
+Wire Wire Line
+	5950 1150 5850 1150
+Wire Wire Line
+	5900 950  5900 750 
+Wire Wire Line
+	5850 950  5900 950 
+Wire Wire Line
+	5950 700  5950 1150
+Wire Wire Line
+	4400 1150 4450 1150
+Connection ~ 4400 1150
+Wire Wire Line
+	4400 1050 4400 1150
+Wire Wire Line
+	4400 1050 4450 1050
+Connection ~ 4400 1050
+Wire Wire Line
+	4400 750  4400 1050
+Wire Wire Line
+	5900 750  4400 750 
+Wire Wire Line
+	2800 650  2800 1150
+Wire Wire Line
+	2700 650  2700 700 
+Wire Wire Line
+	2600 650  2600 1250
+Wire Wire Line
+	2500 650  2500 1350
+$Comp
+L Keebio_Components:TRRS UL1
+U 1 1 611A050C
+P 2900 300
+F 0 "UL1" V 2870 272 60  0000 R CNN
+F 1 "TRRS" V 2764 272 60  0000 R CNN
+F 2 "Keebio-Parts:TRRS-PJ-320A" H 3050 300 60  0001 C CNN
+F 3 "" H 3050 300 60  0001 C CNN
+	1    2900 300 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2700 700  3550 700 
+Wire Wire Line
+	3550 700  5950 700 
+Connection ~ 3550 700 
+Wire Wire Line
+	3550 650  3550 700 
+Wire Wire Line
+	2800 1150 3650 1150
+Wire Wire Line
+	3650 1150 4400 1150
+Connection ~ 3650 1150
+Wire Wire Line
+	3650 650  3650 1150
+Wire Wire Line
+	2600 1250 3450 1250
+Wire Wire Line
+	3450 1250 4450 1250
+Connection ~ 3450 1250
+Wire Wire Line
+	3450 650  3450 1250
+Wire Wire Line
+	3350 650  3350 1350
+$Comp
+L Keebio_Components:TRRS UR1
+U 1 1 612EACBA
+P 3750 300
+F 0 "UR1" V 3720 272 60  0000 R CNN
+F 1 "TRRS" V 3614 272 60  0000 R CNN
+F 2 "Keebio-Parts:TRRS-PJ-320A" H 3900 300 60  0001 C CNN
+F 3 "" H 3900 300 60  0001 C CNN
+	1    3750 300 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4450 1350 3350 1350
+Wire Wire Line
+	3350 1350 2500 1350
+Connection ~ 3350 1350
+Wire Wire Line
+	5900 3500 6550 3500
+Wire Wire Line
+	5250 3500 5900 3500
+Wire Wire Line
+	6550 5600 7200 5600
+Wire Wire Line
+	6550 6300 7200 6300
+Wire Wire Line
+	5900 5600 6550 5600
+Connection ~ 7200 5600
+Connection ~ 7200 6300
+Wire Wire Line
+	5250 4900 5900 4900
+Wire Wire Line
+	4450 1850 4350 1850
+Wire Wire Line
+	4350 1850 4350 2800
+Wire Wire Line
+	4350 2800 7500 2800
+Wire Wire Line
+	7500 2800 7500 3500
+Wire Wire Line
+	7500 3500 7200 3500
+Connection ~ 7200 3500
+Wire Wire Line
+	4450 1950 4450 2700
+Wire Wire Line
+	4450 2700 7600 2700
+Wire Wire Line
+	7600 2700 7600 4200
+Wire Wire Line
+	7600 4200 7200 4200
+Connection ~ 7200 4200
+Wire Wire Line
+	5150 2350 5150 2600
+Wire Wire Line
+	7700 2600 7700 4900
+Wire Wire Line
+	7700 4900 7200 4900
+Connection ~ 7200 4900
+Wire Wire Line
+	7200 5600 7800 5600
+Wire Wire Line
+	7200 6300 7900 6300
+Wire Wire Line
+	4950 2350 4850 2350
+Wire Wire Line
+	4850 2350 4850 3200
+Connection ~ 4850 3200
+Wire Wire Line
+	4450 1750 4200 1750
+Wire Wire Line
+	4200 1750 4200 3200
+Connection ~ 4200 3200
+Wire Wire Line
+	4450 1650 3550 1650
+Wire Wire Line
+	3550 1650 3550 3200
+Connection ~ 3550 3200
+$Comp
+L Keebio_Components:Elite-C UMC1
+U 1 1 61132E53
+P 5150 1400
+F 0 "UMC1" H 5150 2237 60  0000 C CNN
+F 1 "Elite-C" H 5150 2131 60  0000 C CNN
+F 2 "Keebio-Parts:Elite-C" V 6200 -1100 60  0001 C CNN
+F 3 "" V 6200 -1100 60  0001 C CNN
+	1    5150 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 2600 7700 2600
+Wire Wire Line
+	5850 1750 6000 1750
+Wire Wire Line
+	6000 1750 6000 2500
+Wire Wire Line
+	6000 2500 5500 2500
+Wire Wire Line
+	5500 2500 5500 3200
+Connection ~ 5500 3200
+Wire Wire Line
+	6150 1650 6150 3200
+Wire Wire Line
+	5850 1650 6150 1650
+Connection ~ 6150 3200
+Wire Wire Line
+	5850 1550 6800 1550
+Wire Wire Line
+	6800 1550 6800 3200
+Connection ~ 6800 3200
+Wire Wire Line
+	7900 1850 7900 6300
+Wire Wire Line
+	7800 1950 7800 5600
+Wire Wire Line
+	5850 1950 7800 1950
+Wire Wire Line
+	5850 1850 7900 1850
+$EndSCHEMATC
