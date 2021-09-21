@@ -6,7 +6,8 @@ pcb_margin    =   0.625;
 
 // layer dimensions
 layer_depth   =   2.5;
-border_width  =  10.0;
+border_width  =   5.0;
+layers        =   3.0;
 
 // switch plate dimensions
 columns       =   6.0;
@@ -19,18 +20,31 @@ grid_width = columns * (switch_width + switch_gap) - switch_gap;
 grid_height = rows * (switch_width + switch_gap) - switch_gap;
     
 // elevations
-pcb_elevation   = 5.0;
-plate_elevation = pcb_elevation + pcb_depth + switch_depth - layer_depth;
+plate_elevation = (1 + layers) * layer_depth;
+pcb_elevation = plate_elevation - pcb_depth - switch_depth + layer_depth;
 
 module pcb() {
-    translate([border_width - pcb_margin, border_width - pcb_margin, pcb_elevation])
-        color("green")
-        cube([pcb_width, pcb_height, pcb_depth]);
+    difference() {
+        // pcb
+        translate([border_width - pcb_margin, border_width - pcb_margin, pcb_elevation])
+            color("green")
+            cube([pcb_width, pcb_height, pcb_depth]);
+        
+        // holes
+        translate([border_width - pcb_margin + 17.14, border_width - pcb_margin + 19.82, pcb_elevation])
+            cylinder(h=pcb_depth, r=7.05/2);
+        translate([border_width - pcb_margin + 17.14, border_width - pcb_margin + pcb_height - 24.33, pcb_elevation])
+            cylinder(h=pcb_depth, r=7.05/2);
+        translate([border_width - pcb_margin + pcb_width - 17.14, border_width - pcb_margin + 19.82, pcb_elevation])
+            cylinder(h=pcb_depth, r=7.05/2);
+        translate([border_width - pcb_margin + pcb_width - 17.14, border_width - pcb_margin + pcb_height - 24.33, pcb_elevation])
+            cylinder(h=pcb_depth, r=7.05/2);
+    }
 }
 
 module base_plate() {
     color("silver")
-        cube([pcb_width + border_width * 2, pcb_height + border_width * 2, layer_depth]);
+        cube([pcb_width + (border_width - pcb_margin) * 2, pcb_height + (border_width - pcb_margin) * 2, layer_depth]);
 }
 
 module key_switch(x, y) {
@@ -50,49 +64,59 @@ module key_switch(x, y) {
         cube([3.6, 3.6, 3.6]);
 }
 
-module key_plate() {
+module border_plate(elevation) {
     grid_width = columns * (switch_width + switch_gap) - switch_gap;
     grid_height = rows * (switch_width + switch_gap) - switch_gap;
     beam_width = grid_width + border_width * 2;
     beam_height = grid_height;
     // south border
-    translate([0, 0, plate_elevation])
-        color("gray")
+    translate([0, 0, elevation])
+        color("silver")
         cube([beam_width, border_width, layer_depth]);
     // north border
-    translate([0, border_width + beam_height, plate_elevation])
-        color("gray")
+    translate([0, border_width + beam_height, elevation])
+        color("silver")
         cube([beam_width, border_width, layer_depth]);
     // east border
-    translate([0, border_width, plate_elevation])
-        color("gray")
+    translate([0, border_width, elevation])
+        color("silver")
         cube([border_width, beam_height, layer_depth]);
     // west border
-    translate([beam_width - border_width, border_width, plate_elevation])
-        color("gray")
+    translate([beam_width - border_width, border_width, elevation])
+        color("silver")
         cube([border_width, beam_height, layer_depth]);
+}
+
+module key_plate() {
+    // borders
+    border_plate(plate_elevation);
 
     // columns
     for (column=[1:1:columns-1]) {
         translate([column * (switch_width + switch_gap) + border_width - switch_gap, border_width, plate_elevation])
-            color("gray")
+            color("silver")
             cube([switch_gap, grid_height, layer_depth]);
     }
 
     // rows
     for (row=[1:1:rows-1]) {
         translate([border_width, row * (switch_width + switch_gap) + border_width - switch_gap, plate_elevation])
-            color("gray")
+            color("silver")
             cube([grid_width, switch_gap, layer_depth]);
     }
 }
 
+// build keyboard
 base_plate();
 pcb();
 key_plate();
 
+for (layer=[1:1:layers]) {
+    border_plate(layer_depth * layer);
+}
+
 for (column=[0:1:columns-1]) {
     for (row=[0:1:rows-1]) {
-        key_switch(column, row);
+        //key_switch(column, row);
     }
 }
