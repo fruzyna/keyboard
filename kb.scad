@@ -120,13 +120,16 @@ module key_plate() {
 
     // rows
     for (row=[1:1:rows-1]) {
-        difference() {
-            translate([border_width, row * (switch_width + switch_gap) + border_width - switch_gap, plate_elevation])
-                color("silver")
-                cube([grid_width, switch_gap, layer_depth]);
-            
-            // holes
-            screw_holes(layer_depth, screw_diameter, plate_elevation);
+        // make each bit of row to prevent overlapping because I'm obsessive-compulsive
+        for (column=[0:1:columns-1]) {
+            difference() {
+                translate([border_width + (switch_width + switch_gap) * column, row * (switch_width + switch_gap) + border_width - switch_gap, plate_elevation])
+                    color("silver")
+                    cube([switch_width, switch_gap, layer_depth]);
+                
+                // holes
+                screw_holes(layer_depth, screw_diameter, plate_elevation);
+            }
         }
     }
 }
