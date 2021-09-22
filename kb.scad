@@ -16,12 +16,30 @@ switch_width  =  14.0;
 switch_depth  =   5.0;
 switch_gap    =   5.05;
 
-grid_width = columns * (switch_width + switch_gap) - switch_gap;
+grid_width  = columns * (switch_width + switch_gap) - switch_gap;
 grid_height = rows * (switch_width + switch_gap) - switch_gap;
+
+screw_diameter =  2.0;
     
 // elevations
 plate_elevation = (1 + layers) * layer_depth;
-pcb_elevation = plate_elevation - pcb_depth - switch_depth + layer_depth;
+pcb_elevation   = plate_elevation - pcb_depth - switch_depth + layer_depth;
+
+vector   = false;
+switches = false;
+
+$fs = 1;
+
+module screw_holes(depth, radius, elevation) {
+    translate([border_width - pcb_margin + 17.14, border_width - pcb_margin + 19.82, elevation])
+        cylinder(h=depth, r=radius);
+    translate([border_width - pcb_margin + 17.14, border_width - pcb_margin + pcb_height - 24.33, elevation])
+        cylinder(h=depth, r=radius);
+    translate([border_width - pcb_margin + pcb_width - 17.14, border_width - pcb_margin + 19.82, elevation])
+        cylinder(h=depth, r=radius);
+    translate([border_width - pcb_margin + pcb_width - 17.14, border_width - pcb_margin + pcb_height - 24.33, elevation])
+        cylinder(h=depth, r=radius);
+}
 
 module pcb() {
     difference() {
@@ -31,20 +49,17 @@ module pcb() {
             cube([pcb_width, pcb_height, pcb_depth]);
         
         // holes
-        translate([border_width - pcb_margin + 17.14, border_width - pcb_margin + 19.82, pcb_elevation])
-            cylinder(h=pcb_depth, r=7.05/2);
-        translate([border_width - pcb_margin + 17.14, border_width - pcb_margin + pcb_height - 24.33, pcb_elevation])
-            cylinder(h=pcb_depth, r=7.05/2);
-        translate([border_width - pcb_margin + pcb_width - 17.14, border_width - pcb_margin + 19.82, pcb_elevation])
-            cylinder(h=pcb_depth, r=7.05/2);
-        translate([border_width - pcb_margin + pcb_width - 17.14, border_width - pcb_margin + pcb_height - 24.33, pcb_elevation])
-            cylinder(h=pcb_depth, r=7.05/2);
+        screw_holes(pcb_depth, 7.05/2, pcb_elevation);
     }
 }
 
 module base_plate() {
-    color("silver")
-        cube([pcb_width + (border_width - pcb_margin) * 2, pcb_height + (border_width - pcb_margin) * 2, layer_depth]);
+    difference() {
+        color("silver")
+            cube([pcb_width + (border_width - pcb_margin) * 2, pcb_height + (border_width - pcb_margin) * 2, layer_depth]);
+        
+        screw_holes(layer_depth, screw_diameter, 0);
+    }
 }
 
 module key_switch(x, y) {
@@ -93,30 +108,50 @@ module key_plate() {
 
     // columns
     for (column=[1:1:columns-1]) {
-        translate([column * (switch_width + switch_gap) + border_width - switch_gap, border_width, plate_elevation])
-            color("silver")
-            cube([switch_gap, grid_height, layer_depth]);
+        difference() {
+            translate([column * (switch_width + switch_gap) + border_width - switch_gap, border_width, plate_elevation])
+                color("silver")
+                cube([switch_gap, grid_height, layer_depth]);
+            
+            // holes
+            screw_holes(layer_depth, screw_diameter, plate_elevation);
+        }
     }
 
     // rows
     for (row=[1:1:rows-1]) {
-        translate([border_width, row * (switch_width + switch_gap) + border_width - switch_gap, plate_elevation])
-            color("silver")
-            cube([grid_width, switch_gap, layer_depth]);
+        difference() {
+            translate([border_width, row * (switch_width + switch_gap) + border_width - switch_gap, plate_elevation])
+                color("silver")
+                cube([grid_width, switch_gap, layer_depth]);
+            
+            // holes
+            screw_holes(layer_depth, screw_diameter, plate_elevation);
+        }
     }
 }
 
 // build keyboard
 base_plate();
-pcb();
-key_plate();
 
-for (layer=[1:1:layers]) {
-    border_plate(layer_depth * layer);
-}
+if (!vector) {
+    pcb();
 
-for (column=[0:1:columns-1]) {
-    for (row=[0:1:rows-1]) {
-        //key_switch(column, row);
+    for (layer=[1:1:layers]) {
+        border_plate(layer_depth * layer);
     }
+
+    if (switches) {
+        for (column=[0:1:columns-1]) {
+            for (row=[0:1:rows-1]) {
+                key_switch(column, row);
+            }
+        }
+    }
+    
+    key_plate();
+}
+else {
+    translate([0, pcb_height + border_width*2, -plate_elevation])
+        key_plate();
 }
