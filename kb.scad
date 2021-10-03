@@ -25,7 +25,8 @@ screw_diameter =  2.0;
 plate_elevation = (1 + layers) * layer_depth;
 pcb_elevation   = plate_elevation - pcb_depth - switch_depth + layer_depth;
 
-vector   = false;
+vector   = true;
+double   = true;
 switches = false;
 
 $fs = 1;
@@ -155,6 +156,12 @@ if (!vector) {
     key_plate();
 }
 else {
-    translate([0, pcb_height + border_width*2, -plate_elevation])
+    translate([0, pcb_height + border_width*2 + 2, -plate_elevation])
         key_plate();
+    if (double) {
+        translate([pcb_width + border_width*2 + 2, 0, 0])
+            base_plate();
+        translate([pcb_width + border_width*2 + 2, pcb_height + border_width*2 + 2, -plate_elevation])
+            key_plate();
+    }
 }
