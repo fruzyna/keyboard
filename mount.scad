@@ -9,17 +9,17 @@ layer_depth   =   2.5;
 border_width  =   5.0;
 layers        =   3.0;
 
+hole_radius    =  6.4/2;
 post_extra     =  1.5;
-vpillar_width  =  6.5;
+vpillar_width  =  7.0;
 vpillar_height = 63;
 hpillar_width  = pcb_width - pcb_margin * 2;
-hpillar_height =  5.5;
+hpillar_height =  6;
 
 // elevations
 back_height    = 10;
 front_height   = 3;
 pcb_elevation  = back_height + layer_depth;
-
 
 plate    = false;
 pcb      = false;
@@ -45,7 +45,7 @@ module pcb() {
             cube([pcb_width, pcb_height, pcb_depth]);
         
         // holes
-        screw_holes(pcb_depth, 7.05/2, pcb_elevation);
+        screw_holes(pcb_depth, hole_radius, pcb_elevation);
     }
 }
 
@@ -59,7 +59,7 @@ module base_plate() {
 }
 
 module mount() {
-    screw_holes(back_height + pcb_depth + post_extra, 7.05/2, layer_depth);
+    screw_holes(back_height + pcb_depth + post_extra, hole_radius, layer_depth);
 
     translate([border_width - pcb_margin + 14, 
         border_width - pcb_margin + 14, layer_depth])
