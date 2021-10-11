@@ -10,15 +10,16 @@ border_width  =   5.0;
 layers        =   3.0;
 
 post_extra     =  1.5;
-back_extra     =  2;
 vpillar_width  =  6.5;
 vpillar_height = 63;
 hpillar_width  = pcb_width - pcb_margin * 2;
 hpillar_height =  5.5;
 
 // elevations
-pillar_depth   = 5.5;
-pcb_elevation  = pillar_depth + layer_depth + back_extra;
+back_height    = 10;
+front_height   = 3;
+pcb_elevation  = back_height + layer_depth;
+
 
 plate    = false;
 pcb      = false;
@@ -57,35 +58,31 @@ module base_plate() {
     }
 }
 
-
-// build keyboard
-//difference() {
-
 module mount() {
-    screw_holes(back_extra + pillar_depth + pcb_depth + post_extra, 7.05/2, layer_depth);
+    screw_holes(back_height + pcb_depth + post_extra, 7.05/2, layer_depth);
 
     translate([border_width - pcb_margin + 14, 
         border_width - pcb_margin + 14, layer_depth])
-        cube([vpillar_width, vpillar_height, pillar_depth + back_extra]);
+        cube([vpillar_width, vpillar_height, back_height]);
 
     translate([border_width - pcb_margin + 90.2, 
         border_width - pcb_margin + 14, layer_depth])
-        cube([vpillar_width, vpillar_height, pillar_depth + back_extra]);
+        cube([vpillar_width, vpillar_height, back_height]);
 
     translate([border_width, 
         border_width - pcb_margin + 19, layer_depth])
-        cube([hpillar_width, hpillar_height, pillar_depth + back_extra]);
+        cube([hpillar_width, hpillar_height, back_height]);
 
     translate([border_width, 
         border_width - pcb_margin + 38, layer_depth])
-        cube([hpillar_width, hpillar_height, pillar_depth + back_extra]);
+        cube([hpillar_width, hpillar_height, back_height]);
 }
 
 module wedge() {
     translate([hpillar_width + border_width, vpillar_height + border_width - pcb_margin + 14, layer_depth])
     rotate([0, 0, 180])
     polyhedron(
-           points=[[0,0,0], [hpillar_width,0,0], [hpillar_width,vpillar_height,0], [0,vpillar_height,0], [0,vpillar_height, back_extra], [hpillar_width,vpillar_height, back_extra]],
+           points=[[0,0,0], [hpillar_width,0,0], [hpillar_width,vpillar_height,0], [0,vpillar_height,0], [0,vpillar_height, back_height-front_height], [hpillar_width,vpillar_height, back_height-front_height]],
            faces=[[0,1,2,3],[5,4,3,2],[0,4,5,1],[0,3,4],[5,2,1]]
     );
 }
