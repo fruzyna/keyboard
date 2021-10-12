@@ -36,7 +36,7 @@ U 1 1 612005A5
 P 3950 3350
 F 0 "D1" V 3996 3270 50  0000 R CNN
 F 1 "D" V 3905 3270 50  0000 R CNN
-F 2 "Keebio-Parts:Diode" H 3950 3350 50  0001 C CNN
+F 2 "keebio-parts:Diode" H 3950 3350 50  0001 C CNN
 F 3 "~" H 3950 3350 50  0001 C CNN
 	1    3950 3350
 	0    -1   -1   0   
@@ -58,7 +58,7 @@ U 1 1 61290D84
 P 4600 3350
 F 0 "D6" V 4646 3270 50  0000 R CNN
 F 1 "D" V 4555 3270 50  0000 R CNN
-F 2 "Keebio-Parts:Diode" H 4600 3350 50  0001 C CNN
+F 2 "keebio-parts:Diode" H 4600 3350 50  0001 C CNN
 F 3 "~" H 4600 3350 50  0001 C CNN
 	1    4600 3350
 	0    -1   -1   0   
@@ -80,7 +80,7 @@ U 1 1 6129155F
 P 5250 3350
 F 0 "D11" V 5296 3270 50  0000 R CNN
 F 1 "D" V 5205 3270 50  0000 R CNN
-F 2 "Keebio-Parts:Diode" H 5250 3350 50  0001 C CNN
+F 2 "keebio-parts:Diode" H 5250 3350 50  0001 C CNN
 F 3 "~" H 5250 3350 50  0001 C CNN
 	1    5250 3350
 	0    -1   -1   0   
@@ -102,7 +102,7 @@ U 1 1 61292738
 P 5900 3350
 F 0 "D16" V 5946 3270 50  0000 R CNN
 F 1 "D" V 5855 3270 50  0000 R CNN
-F 2 "Keebio-Parts:Diode" H 5900 3350 50  0001 C CNN
+F 2 "keebio-parts:Diode" H 5900 3350 50  0001 C CNN
 F 3 "~" H 5900 3350 50  0001 C CNN
 	1    5900 3350
 	0    -1   -1   0   
@@ -124,7 +124,7 @@ U 1 1 61293383
 P 6550 3350
 F 0 "D21" V 6596 3270 50  0000 R CNN
 F 1 "D" V 6505 3270 50  0000 R CNN
-F 2 "Keebio-Parts:Diode" H 6550 3350 50  0001 C CNN
+F 2 "keebio-parts:Diode" H 6550 3350 50  0001 C CNN
 F 3 "~" H 6550 3350 50  0001 C CNN
 	1    6550 3350
 	0    -1   -1   0   
@@ -146,7 +146,7 @@ U 1 1 61293E96
 P 7200 3350
 F 0 "D26" V 7246 3270 50  0000 R CNN
 F 1 "D" V 7155 3270 50  0000 R CNN
-F 2 "Keebio-Parts:Diode" H 7200 3350 50  0001 C CNN
+F 2 "keebio-parts:Diode" H 7200 3350 50  0001 C CNN
 F 3 "~" H 7200 3350 50  0001 C CNN
 	1    7200 3350
 	0    -1   -1   0   
@@ -168,7 +168,7 @@ U 1 1 6129F895
 P 3950 4050
 F 0 "D2" V 3996 3970 50  0000 R CNN
 F 1 "D" V 3905 3970 50  0000 R CNN
-F 2 "Keebio-Parts:Diode" H 3950 4050 50  0001 C CNN
+F 2 "keebio-parts:Diode" H 3950 4050 50  0001 C CNN
 F 3 "~" H 3950 4050 50  0001 C CNN
 	1    3950 4050
 	0    -1   -1   0   
@@ -190,7 +190,7 @@ U 1 1 6129F8A1
 P 4600 4050
 F 0 "D7" V 4646 3970 50  0000 R CNN
 F 1 "D" V 4555 3970 50  0000 R CNN
-F 2 "Keebio-Parts:Diode" H 4600 4050 50  0001 C CNN
+F 2 "keebio-parts:Diode" H 4600 4050 50  0001 C CNN
 F 3 "~" H 4600 4050 50  0001 C CNN
 	1    4600 4050
 	0    -1   -1   0   
@@ -212,7 +212,7 @@ U 1 1 6129F8AD
 P 5250 4050
 F 0 "D12" V 5296 3970 50  0000 R CNN
 F 1 "D" V 5205 3970 50  0000 R CNN
-F 2 "Keebio-Parts:Diode" H 5250 4050 50  0001 C CNN
+F 2 "keebio-parts:Diode" H 5250 4050 50  0001 C CNN
 F 3 "~" H 5250 4050 50  0001 C CNN
 	1    5250 4050
 	0    -1   -1   0   
@@ -234,7 +234,7 @@ U 1 1 6129F8B9
 P 5900 4050
 F 0 "D17" V 5946 3970 50  0000 R CNN
 F 1 "D" V 5855 3970 50  0000 R CNN
-F 2 "Keebio-Parts:Diode" H 5900 4050 50  0001 C CNN
+F 2 "keebio-parts:Diode" H 5900 4050 50  0001 C CNN
 F 3 "~" H 5900 4050 50  0001 C CNN
 	1    5900 4050
 	0    -1   -1   0   
@@ -256,7 +256,7 @@ U 1 1 6129F8C5
 P 6550 4050
 F 0 "D22" V 6596 3970 50  0000 R CNN
 F 1 "D" V 6505 3970 50  0000 R CNN
-F 2 "Keebio-Parts:Diode" H 6550 4050 50  0001 C CNN
+F 2 "keebio-parts:Diode" H 6550 4050 50  0001 C CNN
 F 3 "~" H 6550 4050 50  0001 C CNN
 	1    6550 4050
 	0    -1   -1   0   
@@ -278,7 +278,7 @@ U 1 1 6129F8D1
 P 7200 4050
 F 0 "D27" V 7246 3970 50  0000 R CNN
 F 1 "D" V 7155 3970 50  0000 R CNN
-F 2 "Keebio-Parts:Diode" H 7200 4050 50  0001 C CNN
+F 2 "keebio-parts:Diode" H 7200 4050 50  0001 C CNN
 F 3 "~" H 7200 4050 50  0001 C CNN
 	1    7200 4050
 	0    -1   -1   0   
@@ -300,7 +300,7 @@ U 1 1 612ACEB6
 P 3950 4750
 F 0 "D3" V 3996 4670 50  0000 R CNN
 F 1 "D" V 3905 4670 50  0000 R CNN
-F 2 "Keebio-Parts:Diode" H 3950 4750 50  0001 C CNN
+F 2 "keebio-parts:Diode" H 3950 4750 50  0001 C CNN
 F 3 "~" H 3950 4750 50  0001 C CNN
 	1    3950 4750
 	0    -1   -1   0   
@@ -322,7 +322,7 @@ U 1 1 612ACEC2
 P 4600 4750
 F 0 "D8" V 4646 4670 50  0000 R CNN
 F 1 "D" V 4555 4670 50  0000 R CNN
-F 2 "Keebio-Parts:Diode" H 4600 4750 50  0001 C CNN
+F 2 "keebio-parts:Diode" H 4600 4750 50  0001 C CNN
 F 3 "~" H 4600 4750 50  0001 C CNN
 	1    4600 4750
 	0    -1   -1   0   
@@ -344,7 +344,7 @@ U 1 1 612ACECE
 P 5250 4750
 F 0 "D13" V 5296 4670 50  0000 R CNN
 F 1 "D" V 5205 4670 50  0000 R CNN
-F 2 "Keebio-Parts:Diode" H 5250 4750 50  0001 C CNN
+F 2 "keebio-parts:Diode" H 5250 4750 50  0001 C CNN
 F 3 "~" H 5250 4750 50  0001 C CNN
 	1    5250 4750
 	0    -1   -1   0   
@@ -366,7 +366,7 @@ U 1 1 612ACEDA
 P 5900 4750
 F 0 "D18" V 5946 4670 50  0000 R CNN
 F 1 "D" V 5855 4670 50  0000 R CNN
-F 2 "Keebio-Parts:Diode" H 5900 4750 50  0001 C CNN
+F 2 "keebio-parts:Diode" H 5900 4750 50  0001 C CNN
 F 3 "~" H 5900 4750 50  0001 C CNN
 	1    5900 4750
 	0    -1   -1   0   
@@ -388,7 +388,7 @@ U 1 1 612ACEE6
 P 6550 4750
 F 0 "D23" V 6596 4670 50  0000 R CNN
 F 1 "D" V 6505 4670 50  0000 R CNN
-F 2 "Keebio-Parts:Diode" H 6550 4750 50  0001 C CNN
+F 2 "keebio-parts:Diode" H 6550 4750 50  0001 C CNN
 F 3 "~" H 6550 4750 50  0001 C CNN
 	1    6550 4750
 	0    -1   -1   0   
@@ -410,7 +410,7 @@ U 1 1 612ACEF2
 P 7200 4750
 F 0 "D28" V 7246 4670 50  0000 R CNN
 F 1 "D" V 7155 4670 50  0000 R CNN
-F 2 "Keebio-Parts:Diode" H 7200 4750 50  0001 C CNN
+F 2 "keebio-parts:Diode" H 7200 4750 50  0001 C CNN
 F 3 "~" H 7200 4750 50  0001 C CNN
 	1    7200 4750
 	0    -1   -1   0   
@@ -432,7 +432,7 @@ U 1 1 612ACEFE
 P 3950 5450
 F 0 "D4" V 3996 5370 50  0000 R CNN
 F 1 "D" V 3905 5370 50  0000 R CNN
-F 2 "Keebio-Parts:Diode" H 3950 5450 50  0001 C CNN
+F 2 "keebio-parts:Diode" H 3950 5450 50  0001 C CNN
 F 3 "~" H 3950 5450 50  0001 C CNN
 	1    3950 5450
 	0    -1   -1   0   
@@ -454,7 +454,7 @@ U 1 1 612ACF0A
 P 4600 5450
 F 0 "D9" V 4646 5370 50  0000 R CNN
 F 1 "D" V 4555 5370 50  0000 R CNN
-F 2 "Keebio-Parts:Diode" H 4600 5450 50  0001 C CNN
+F 2 "keebio-parts:Diode" H 4600 5450 50  0001 C CNN
 F 3 "~" H 4600 5450 50  0001 C CNN
 	1    4600 5450
 	0    -1   -1   0   
@@ -476,7 +476,7 @@ U 1 1 612ACF16
 P 5250 5450
 F 0 "D14" V 5296 5370 50  0000 R CNN
 F 1 "D" V 5205 5370 50  0000 R CNN
-F 2 "Keebio-Parts:Diode" H 5250 5450 50  0001 C CNN
+F 2 "keebio-parts:Diode" H 5250 5450 50  0001 C CNN
 F 3 "~" H 5250 5450 50  0001 C CNN
 	1    5250 5450
 	0    -1   -1   0   
@@ -498,7 +498,7 @@ U 1 1 612ACF22
 P 5900 5450
 F 0 "D19" V 5946 5370 50  0000 R CNN
 F 1 "D" V 5855 5370 50  0000 R CNN
-F 2 "Keebio-Parts:Diode" H 5900 5450 50  0001 C CNN
+F 2 "keebio-parts:Diode" H 5900 5450 50  0001 C CNN
 F 3 "~" H 5900 5450 50  0001 C CNN
 	1    5900 5450
 	0    -1   -1   0   
@@ -520,7 +520,7 @@ U 1 1 612ACF2E
 P 6550 5450
 F 0 "D24" V 6596 5370 50  0000 R CNN
 F 1 "D" V 6505 5370 50  0000 R CNN
-F 2 "Keebio-Parts:Diode" H 6550 5450 50  0001 C CNN
+F 2 "keebio-parts:Diode" H 6550 5450 50  0001 C CNN
 F 3 "~" H 6550 5450 50  0001 C CNN
 	1    6550 5450
 	0    -1   -1   0   
@@ -542,7 +542,7 @@ U 1 1 612ACF3A
 P 7200 5450
 F 0 "D29" V 7246 5370 50  0000 R CNN
 F 1 "D" V 7155 5370 50  0000 R CNN
-F 2 "Keebio-Parts:Diode" H 7200 5450 50  0001 C CNN
+F 2 "keebio-parts:Diode" H 7200 5450 50  0001 C CNN
 F 3 "~" H 7200 5450 50  0001 C CNN
 	1    7200 5450
 	0    -1   -1   0   
@@ -564,7 +564,7 @@ U 1 1 612B7DFF
 P 3950 6150
 F 0 "D5" V 3996 6070 50  0000 R CNN
 F 1 "D" V 3905 6070 50  0000 R CNN
-F 2 "Keebio-Parts:Diode" H 3950 6150 50  0001 C CNN
+F 2 "keebio-parts:Diode" H 3950 6150 50  0001 C CNN
 F 3 "~" H 3950 6150 50  0001 C CNN
 	1    3950 6150
 	0    -1   -1   0   
@@ -586,7 +586,7 @@ U 1 1 612B7E0B
 P 4600 6150
 F 0 "D10" V 4646 6070 50  0000 R CNN
 F 1 "D" V 4555 6070 50  0000 R CNN
-F 2 "Keebio-Parts:Diode" H 4600 6150 50  0001 C CNN
+F 2 "keebio-parts:Diode" H 4600 6150 50  0001 C CNN
 F 3 "~" H 4600 6150 50  0001 C CNN
 	1    4600 6150
 	0    -1   -1   0   
@@ -608,7 +608,7 @@ U 1 1 612B7E17
 P 5250 6150
 F 0 "D15" V 5296 6070 50  0000 R CNN
 F 1 "D" V 5205 6070 50  0000 R CNN
-F 2 "Keebio-Parts:Diode" H 5250 6150 50  0001 C CNN
+F 2 "keebio-parts:Diode" H 5250 6150 50  0001 C CNN
 F 3 "~" H 5250 6150 50  0001 C CNN
 	1    5250 6150
 	0    -1   -1   0   
@@ -630,7 +630,7 @@ U 1 1 612B7E23
 P 5900 6150
 F 0 "D20" V 5946 6070 50  0000 R CNN
 F 1 "D" V 5855 6070 50  0000 R CNN
-F 2 "Keebio-Parts:Diode" H 5900 6150 50  0001 C CNN
+F 2 "keebio-parts:Diode" H 5900 6150 50  0001 C CNN
 F 3 "~" H 5900 6150 50  0001 C CNN
 	1    5900 6150
 	0    -1   -1   0   
@@ -652,7 +652,7 @@ U 1 1 612B7E2F
 P 6550 6150
 F 0 "D25" V 6596 6070 50  0000 R CNN
 F 1 "D" V 6505 6070 50  0000 R CNN
-F 2 "Keebio-Parts:Diode" H 6550 6150 50  0001 C CNN
+F 2 "keebio-parts:Diode" H 6550 6150 50  0001 C CNN
 F 3 "~" H 6550 6150 50  0001 C CNN
 	1    6550 6150
 	0    -1   -1   0   
@@ -674,7 +674,7 @@ U 1 1 612B7E3B
 P 7200 6150
 F 0 "D30" V 7246 6070 50  0000 R CNN
 F 1 "D" V 7155 6070 50  0000 R CNN
-F 2 "Keebio-Parts:Diode" H 7200 6150 50  0001 C CNN
+F 2 "keebio-parts:Diode" H 7200 6150 50  0001 C CNN
 F 3 "~" H 7200 6150 50  0001 C CNN
 	1    7200 6150
 	0    -1   -1   0   
@@ -832,54 +832,46 @@ Wire Wire Line
 Wire Wire Line
 	2500 650  2500 1350
 $Comp
-L Keebio_Components:TRRS UL1
+L keebio-components:TRRS UL1
 U 1 1 611A050C
 P 2900 300
 F 0 "UL1" V 2870 272 60  0000 R CNN
 F 1 "TRRS" V 2764 272 60  0000 R CNN
-F 2 "Keebio-Parts:TRRS-PJ-320A" H 3050 300 60  0001 C CNN
+F 2 "keebio-parts:TRRS-PJ-320A" H 3050 300 60  0001 C CNN
 F 3 "" H 3050 300 60  0001 C CNN
 	1    2900 300 
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2700 700  3550 700 
-Wire Wire Line
-	3550 700  5950 700 
+	3550 700  3800 700 
 Connection ~ 3550 700 
 Wire Wire Line
 	3550 650  3550 700 
 Wire Wire Line
 	2800 1150 3650 1150
-Wire Wire Line
-	3650 1150 4400 1150
 Connection ~ 3650 1150
 Wire Wire Line
 	3650 650  3650 1150
 Wire Wire Line
-	2600 1250 3450 1250
-Wire Wire Line
-	3450 1250 4450 1250
+	3450 1250 3800 1250
 Connection ~ 3450 1250
 Wire Wire Line
 	3450 650  3450 1250
 Wire Wire Line
 	3350 650  3350 1350
 $Comp
-L Keebio_Components:TRRS UR1
+L keebio-components:TRRS UR1
 U 1 1 612EACBA
 P 3750 300
 F 0 "UR1" V 3720 272 60  0000 R CNN
 F 1 "TRRS" V 3614 272 60  0000 R CNN
-F 2 "Keebio-Parts:TRRS-PJ-320A" H 3900 300 60  0001 C CNN
+F 2 "keebio-parts:TRRS-PJ-320A" H 3900 300 60  0001 C CNN
 F 3 "" H 3900 300 60  0001 C CNN
 	1    3750 300 
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4450 1350 3350 1350
-Wire Wire Line
-	3350 1350 2500 1350
+	4450 1350 4100 1350
 Connection ~ 3350 1350
 Wire Wire Line
 	5900 3500 6550 3500
@@ -942,12 +934,12 @@ Wire Wire Line
 	3550 1650 3550 3200
 Connection ~ 3550 3200
 $Comp
-L Keebio_Components:Elite-C UMC1
+L keebio-components:Elite-C UMC1
 U 1 1 61132E53
 P 5150 1400
 F 0 "UMC1" H 5150 2237 60  0000 C CNN
 F 1 "Elite-C" H 5150 2131 60  0000 C CNN
-F 2 "Keebio-Parts:Elite-C" V 6200 -1100 60  0001 C CNN
+F 2 "keebio-parts:Elite-C" V 6200 -1100 60  0001 C CNN
 F 3 "" V 6200 -1100 60  0001 C CNN
 	1    5150 1400
 	1    0    0    -1  
@@ -981,4 +973,54 @@ Wire Wire Line
 	5850 1950 7800 1950
 Wire Wire Line
 	5850 1850 7900 1850
+Wire Wire Line
+	2500 1350 3350 1350
+Wire Wire Line
+	2700 700  3550 700 
+Wire Wire Line
+	2600 1250 3450 1250
+$Comp
+L Device:R R1
+U 1 1 616A0D71
+P 3800 1100
+F 0 "R1" H 3870 1146 50  0000 L CNN
+F 1 "4.7k" H 3870 1055 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3730 1100 50  0001 C CNN
+F 3 "~" H 3800 1100 50  0001 C CNN
+	1    3800 1100
+	1    0    0    -1  
+$EndComp
+Connection ~ 3800 1250
+Wire Wire Line
+	3800 1250 4450 1250
+$Comp
+L Device:R R2
+U 1 1 616A1338
+P 4100 1200
+F 0 "R2" H 4170 1246 50  0000 L CNN
+F 1 "4.7k" H 4170 1155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4030 1200 50  0001 C CNN
+F 3 "~" H 4100 1200 50  0001 C CNN
+	1    4100 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 950  3800 700 
+Connection ~ 3800 700 
+Wire Wire Line
+	3800 700  4100 700 
+Connection ~ 4100 700 
+Wire Wire Line
+	4100 700  5950 700 
+Connection ~ 4100 1350
+Wire Wire Line
+	4100 1350 3350 1350
+Wire Wire Line
+	3650 1150 4400 1150
+Wire Wire Line
+	2550 9650 2600 9650
+Wire Wire Line
+	2600 9650 2600 9700
+Wire Wire Line
+	4100 700  4100 1050
 $EndSCHEMATC
